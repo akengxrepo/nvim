@@ -5,7 +5,7 @@
 Make sure to remove or move your current `nvim` directory
 
 ```
-git clone https://github.com/akengxgit/nvim ~/.config/nvim
+git clone https://github.com/akengxrepo/nvim.git ~/.config/nvim
 ```
 
 Run `nvim` and wait for the plugins to be installed 
