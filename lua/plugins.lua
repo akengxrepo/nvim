@@ -49,7 +49,7 @@ return packer.startup({
 		use("rcarriga/nvim-notify")
 		use("folke/which-key.nvim")
 		use("windwp/nvim-autopairs")
-		use("numToStr/Comment.nvim")
+		-- use("numToStr/Comment.nvim")
 		use("karb94/neoscroll.nvim")
 		use("akinsho/toggleterm.nvim")
 		use("ahmedkhalf/project.nvim")
@@ -74,7 +74,7 @@ return packer.startup({
 		use("saadparwaiz1/cmp_luasnip") -- snippet completions
 		use("L3MON4D3/LuaSnip") --snippet engine
 		use("rafamadriz/friendly-snippets") -- a bunch of snippets to use
-		use("filipdutescu/renamer.nvim")
+--		use("filipdutescu/renamer.nvim")
 		use("neovim/nvim-lspconfig") -- LSP
 		use("folke/trouble.nvim")
 		use("b0o/SchemaStore.nvim")
@@ -91,8 +91,8 @@ return packer.startup({
 		use("p00f/nvim-ts-rainbow")
 		use("windwp/nvim-ts-autotag")
 		use("nvim-treesitter/playground")
-		use("romgrk/nvim-treesitter-context")
-		use("JoosepAlviste/nvim-ts-context-commentstring")
+--		use("romgrk/nvim-treesitter-context")
+--		use("JoosepAlviste/nvim-ts-context-commentstring")
 		use("lewis6991/gitsigns.nvim") -- Git
 		use("github/copilot.vim") -- Git
 		use("kdheepak/lazygit.nvim") -- Git
