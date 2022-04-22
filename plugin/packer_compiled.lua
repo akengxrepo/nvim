@@ -178,7 +178,7 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["modes.nvim"] = {
-    config = { "\27LJ\2\nÙ\1\0\0\4\0\t\0\r6\0\0\0009\0\1\0+\1\2\0=\1\2\0006\0\3\0'\2\4\0B\0\2\0029\0\5\0005\2\a\0005\3\6\0=\3\b\2B\0\2\1K\0\1\0\vcolors\1\0\3\17line_opacity\4š³æÌ\t™³æý\3\15set_cursor\2\15focus_only\1\1\0\4\tcopy\f#49FF00\vvisual\f#1FFFFF\vdelete\f#FF2442\vinsert\f#F98404\nsetup\nmodes\frequire\15cursorline\bopt\bvim\0" },
+    config = { "\27LJ\2\nÙ\1\0\0\4\0\t\0\r6\0\0\0009\0\1\0+\1\2\0=\1\2\0006\0\3\0'\2\4\0B\0\2\0029\0\5\0005\2\a\0005\3\6\0=\3\b\2B\0\2\1K\0\1\0\vcolors\1\0\3\15focus_only\1\17line_opacity\4š³æÌ\t™³æý\3\15set_cursor\2\1\0\4\vvisual\f#1FFFFF\tcopy\f#49FF00\vinsert\f#F98404\vdelete\f#FF2442\nsetup\nmodes\frequire\15cursorline\bopt\bvim\0" },
     loaded = true,
     path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/start/modes.nvim",
     url = "https://github.com/mvllow/modes.nvim"
@@ -243,20 +243,10 @@ _G.packer_plugins = {
     path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
-  ["nvim-treesitter-context"] = {
-    loaded = true,
-    path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/start/nvim-treesitter-context",
-    url = "https://github.com/romgrk/nvim-treesitter-context"
-  },
   ["nvim-ts-autotag"] = {
     loaded = true,
     path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
     url = "https://github.com/windwp/nvim-ts-autotag"
-  },
-  ["nvim-ts-context-commentstring"] = {
-    loaded = true,
-    path = "/data/data/com.termux/files/home/.local/share/nvim/site/pack/packer/start/nvim-ts-context-commentstring",
-    url = "https://github.com/JoosepAlviste/nvim-ts-context-commentstring"
   },
   ["nvim-ts-rainbow"] = {
     loaded = true,
@@ -368,7 +358,7 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: modes.nvim
 time([[Config for modes.nvim]], true)
-try_loadstring("\27LJ\2\nÙ\1\0\0\4\0\t\0\r6\0\0\0009\0\1\0+\1\2\0=\1\2\0006\0\3\0'\2\4\0B\0\2\0029\0\5\0005\2\a\0005\3\6\0=\3\b\2B\0\2\1K\0\1\0\vcolors\1\0\3\17line_opacity\4š³æÌ\t™³æý\3\15set_cursor\2\15focus_only\1\1\0\4\tcopy\f#49FF00\vvisual\f#1FFFFF\vdelete\f#FF2442\vinsert\f#F98404\nsetup\nmodes\frequire\15cursorline\bopt\bvim\0", "config", "modes.nvim")
+try_loadstring("\27LJ\2\nÙ\1\0\0\4\0\t\0\r6\0\0\0009\0\1\0+\1\2\0=\1\2\0006\0\3\0'\2\4\0B\0\2\0029\0\5\0005\2\a\0005\3\6\0=\3\b\2B\0\2\1K\0\1\0\vcolors\1\0\3\15focus_only\1\17line_opacity\4š³æÌ\t™³æý\3\15set_cursor\2\1\0\4\vvisual\f#1FFFFF\tcopy\f#49FF00\vinsert\f#F98404\vdelete\f#FF2442\nsetup\nmodes\frequire\15cursorline\bopt\bvim\0", "config", "modes.nvim")
 time([[Config for modes.nvim]], false)
 vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]

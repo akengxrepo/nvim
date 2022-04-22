@@ -90,8 +90,6 @@ return packer.startup({
 		use("p00f/nvim-ts-rainbow")
 		use("windwp/nvim-ts-autotag")
 		use("nvim-treesitter/playground")
-    use("romgrk/nvim-treesitter-context")
-    use("JoosepAlviste/nvim-ts-context-commentstring")
 		use("lewis6991/gitsigns.nvim") -- Git
 		use("github/copilot.vim") -- Git
 		use("kdheepak/lazygit.nvim") -- Git
